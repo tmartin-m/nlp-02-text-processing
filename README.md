@@ -143,3 +143,12 @@ git push -u origin main
 ## Example Artifact (Output)
 
 ![Word Cloud Example](docs/images/word_cloud_example.png)
+
+## Phase 4. Make a Technical Modification
+The first elected change was updating the input from the text_data_case.txt file to the great_gatsby_tmartin.txt file. The update was sucessful and the notebook ran without failure.
+
+The second elected change was updating the string of stop words. This change was also successful but took several updates as after each successful run more stop words topped the list of most frequent tokens.
+
+The third elected updating the output. I changed the number of tokens to be plotted on the bar chart from 10 to 15 hoping to get a wider array of tokens outside of moe potential stop words.
+
+Each of these changes helped to understand the importance of text preprocessing and how it can take you from just counting to counting what is significant.
