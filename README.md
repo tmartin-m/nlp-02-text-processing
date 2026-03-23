@@ -152,3 +152,14 @@ The second elected change was updating the string of stop words. This change was
 The third elected updating the output. I changed the number of tokens to be plotted on the bar chart from 10 to 15 hoping to get a wider array of tokens outside of moe potential stop words.
 
 Each of these changes helped to understand the importance of text preprocessing and how it can take you from just counting to counting what is significant.
+
+## Phase 5. Apply the Skills to a New Problem
+The first elected change was updating the input from the great_gatsby_tmartin.txt file to the no_tmartin.txt file. The update was sucessful and the notebook ran without failure.
+
+The second elected change was updating the string of stop words. This change was also successful but took several updates due to more stop words appearing as part of the 15 most freqent after updating the required word length from great than 2 to greater than 1 to ensure no was included in the results.
+
+The third elected change was adding new code to produce a bar chart with the top 10 most frequent stop words. The addition was successful and the visual was produced without any issues.
+
+![Most Frequent Stop Words](output.png)
+
+The updated input and the additional visual helps to more clearly visualize how the stop words could affect the analysis if they weren't excluded. At no surprise "no" came at as the most frequent token used but almost more than hundred times more than the second most frequent word "say."
